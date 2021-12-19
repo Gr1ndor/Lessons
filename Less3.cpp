@@ -14,7 +14,7 @@ int main()
 	int arr[3][3][3]{0};
 	int* p = arr[0][0];
 	arr[1][1][1] = 100;
-	std::cout << p[16] << std::endl; // если массив arr[x][y][z] а необходимый элемент в arr[i][j][k], то p[i*y*z + j*z + k]
+	std::cout << p[13] << std::endl; // если массив arr[x][y][z] а необходимый элемент в arr[i][j][k], то p[i*y*z + j*z + k]
 
 	return 0;
 }
